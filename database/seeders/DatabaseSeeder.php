@@ -24,5 +24,9 @@ class DatabaseSeeder extends Seeder
             UserSeeder::class,
         ]);
 
+        // untuk memanggil fungsi ProductSeeder
+        $this->call([
+            ProductSeeder::class,
+        ]);
     }
 }

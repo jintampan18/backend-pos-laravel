@@ -32,8 +32,8 @@
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Products</span></a>
                 <ul class="dropdown-menu">
                     <li>
-                        <a class="nav-link" href="#">All Product</a>
-                        {{-- <a class="nav-link" href="{{ route('product.index') }}">All Product</a> --}}
+                        {{-- <a class="nav-link" href="#">All Product</a> --}}
+                        <a class="nav-link" href="{{ route('product.index') }}">All Product</a>
 
                     </li>
 
